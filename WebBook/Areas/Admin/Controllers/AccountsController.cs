@@ -12,9 +12,12 @@ using System.Threading.Tasks;
 
 namespace WebBook.Areas.Admin.Controllers
 {
+    //Data Annotation
+    //must found to run Page
     [Area("Admin")]
     public class AccountsController : Controller
     {
+        //Dependency Injection
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
