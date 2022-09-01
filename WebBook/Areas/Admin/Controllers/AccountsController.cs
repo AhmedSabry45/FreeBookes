@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace WebBook.Areas.Admin.Controllers
 {
     //Data Annotation
-    //must found to run Page
+    //must found to run Pages
     [Area("Admin")]
     public class AccountsController : Controller
     {
